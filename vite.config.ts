@@ -5,3 +5,4 @@ export default defineConfig({
   base: '/interactive-3d-globe/',
   plugins: [react()],
 });
+
