@@ -1,0 +1,6 @@
+{
+  "name": "Interactive 3D World Globe",
+  "description": "A web application that displays an interactive, rotatable 3D world globe. Drag to rotate, scroll to zoom. Hover over countries to see their names. Can highlight specific countries by ID.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
