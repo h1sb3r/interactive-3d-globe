@@ -1,25 +1,24 @@
 {
-  "name": "interactive-3d-world-globe",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "interactive-3d-globe",
+  "version": "1.0.0",
+  "description": "Un globe interactif en 3D développé avec Vite + React",
+  "homepage": "https://h1sb3r.github.io/interactive-3d-globe",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "geojson": "^0.5.0",
-    "d3": "^7.9.0",
-    "react": "^19.1.0",
-    "d3-selection": "^3.0.0",
-    "topojson-client": "^3.1.0",
-    "d3-geo": "^3.1.1",
-    "react-dom": "^19.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    // ajoute ici les autres dépendances si ton projet en utilise (three.js, etc.)
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0"
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0"
   }
 }
